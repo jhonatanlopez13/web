@@ -1,0 +1,27 @@
+.makeStyles-grow-1 
+{
+    flex-grow: 1;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: #9999;
+
+    .navbar
+    {
+        width: 100%;
+        height: 100%;
+        position: sticky !important;
+        top:0 !important;
+        z-index: 10;
+
+        .galacticprimate
+        {
+            width: 100%;
+            height: 100%;
+            justify-content: left;
+            text-align: initial;
+        }
+    }
+}

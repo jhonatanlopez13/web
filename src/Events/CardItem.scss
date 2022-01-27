@@ -1,0 +1,22 @@
+.containerprincipal{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    margin-top: 10px;
+ 
+    .container
+    {
+        width: 100% ;
+        height: 100%;
+      
+        .containerCard
+        {
+            width: 500px;
+            height: 100%;
+            margin-left: 15%;
+            margin-right: 15%;
+            background: #cccc;
+
+        }
+    }
+}
